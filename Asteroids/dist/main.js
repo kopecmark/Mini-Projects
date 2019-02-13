@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const MovingObject = __webpack_require__(/*! ./moving_object */ \"./src/moving_object.js\");\nconst Util = __webpack_require__(/*! ./util */ \"./src/util.js\");\n\nconst DEFAULT = { COLOR: \"#949392\", RADIUS: 40, SPEED: 4};\n\nfunction Asteroid(options) {\n  options = options || {};\n  options.color = DEFAULT.COLOR;\n  options.radius = DEFAULT.RADIUS;\n  options.vel = options.vel || Util.randomVec(DEFAULT.SPEED);\n  options.pos = options.pos;\n  MovingObject.call(this, options);\n  console.log(this);\n}\n\nUtil.inherits(Asteroid, MovingObject);\n\nmodule.exports = Asteroid;\n\n//# sourceURL=webpack:///./src/asteroid.js?");
+eval("const MovingObject = __webpack_require__(/*! ./moving_object */ \"./src/moving_object.js\");\nconst Util = __webpack_require__(/*! ./util */ \"./src/util.js\");\n\nconst DEFAULT = { COLOR: \"#949392\", RADIUS: 40, SPEED: 4};\n\nfunction Asteroid(options) {\n  options = options || {};\n  options.color = DEFAULT.COLOR;\n  options.radius = DEFAULT.RADIUS;\n  options.vel = options.vel || Util.randomVec(DEFAULT.SPEED);\n  options.pos = options.pos;\n  MovingObject.call(this, options);\n}\n\nUtil.inherits(Asteroid, MovingObject);\n\nmodule.exports = Asteroid;\n\n//# sourceURL=webpack:///./src/asteroid.js?");
 
 /***/ }),
 

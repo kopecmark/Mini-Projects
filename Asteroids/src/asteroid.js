@@ -10,7 +10,6 @@ function Asteroid(options) {
   options.vel = options.vel || Util.randomVec(DEFAULT.SPEED);
   options.pos = options.pos;
   MovingObject.call(this, options);
-  console.log(this);
 }
 
 Util.inherits(Asteroid, MovingObject);
