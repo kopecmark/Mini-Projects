@@ -1,5 +1,5 @@
 const View = require("./ttt-view");
-const Game = require("./")
+const Game = require(".")
 
   $(() => {
     // Your code here
