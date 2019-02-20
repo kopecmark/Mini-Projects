@@ -52,6 +52,7 @@ class View {
     for (let rowIdx = 0; rowIdx < 3; rowIdx++) {
       for (let colIdx = 0; colIdx < 3; colIdx++) {
         let $li = $("<li>");
+        $li.data("pos", [rowIdx, colIdx]);
         $ul.append($li);
       }
       
