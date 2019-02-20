@@ -1,3 +1,11 @@
+html, body, figure, figcaption, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* font: inherit; */
+  /* text-align: inherit; */
+}
+
 li {
   width: 90px;
   height: 90px;
@@ -25,3 +33,14 @@ li:hover {
 .o:after {
   content: "o";
 }
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
