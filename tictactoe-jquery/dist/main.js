@@ -126,7 +126,7 @@ eval("\nconst MoveError = function (msg) { this.msg = msg; };\n\n// MoveError re
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const View = __webpack_require__(/*! ./ttt-view */ \"./src/ttt-view.js\");\nconst Game = __webpack_require__(/*! ../game/game */ \"./game/game.js\");\n\n  $(() => {\n    // Your code here\n  });\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("const View = __webpack_require__(/*! ./ttt-view */ \"./src/ttt-view.js\");\nconst Game = __webpack_require__(/*! ../game/game */ \"./game/game.js\");\n\n  $(() => {\n    const root = $(\".ttt\");\n    const game = new Game();\n    \n  });\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
